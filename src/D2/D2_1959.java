@@ -18,6 +18,7 @@ public class D2_1959 {
 
             int max;
 
+
             for(int i=0; i<N;i++) {
                 int n1 = sc.nextInt();
                 list1.add(i,n1);
@@ -30,7 +31,7 @@ public class D2_1959 {
 
 
             if(N<M){
-            for(int i=0;i<N;i++) { // 3
+            for(int i=0;i<M;i++) { // 3
                 int sum = 0;
                 for (int j = 0; j < N; j++) {
                     sum = sum + list1.get(j) * list2.get(j);
@@ -49,7 +50,7 @@ public class D2_1959 {
 
             }
             else if(M<N) {
-                for(int i=0;i<M;i++) { // 3
+                for(int i=0;i<N;i++) { // 3
                     int sum = 0;
                     for (int j = 0; j < M; j++) {
                         sum = sum + list1.get(j) * list2.get(j);
